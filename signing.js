@@ -20,7 +20,6 @@ const toBytes = hex => Buffer.from(hex, 'hex');
  */
   const createPrivateKey = () => {
     let privateKey = null;
-    
     do {
       privateKey = randomBytes(32);
     } while (!secp256k1.privateKeyVerify(privateKey));
@@ -45,7 +44,7 @@ const toBytes = hex => Buffer.from(hex, 'hex');
  */
   const getPublicKey = privateKey => {
 
-    return secp256k1.publicKeyCreate(toBytes(privateKey)).toString('hex');
+ return secp256k1.publicKeyCreate(toBytes(privateKey)).toString('hex');
     // Your code here
   };
 

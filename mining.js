@@ -1,3 +1,5 @@
+
+  
 'use strict';
 
 const { createHash } = require('crypto');
@@ -128,3 +130,4 @@ module.exports = {
   MineableChain,
   isValidMineableChain
 };
+
