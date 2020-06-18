@@ -104,6 +104,7 @@ class MineableChain extends Blockchain {
   }
 }
 
+
 /**
  * A new validation function for our mineable blockchains. Forget about all the
  * signature and hash validation we did before. Our old validation functions
