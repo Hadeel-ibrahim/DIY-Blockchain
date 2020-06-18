@@ -70,6 +70,7 @@ const toBytes = hex => Buffer.from(hex, 'hex');
     // Your code here
   };
 
+  
 /**
  * A function which takes a hex public key, a string message, and a hex
  * signature, and returns either true or false.
